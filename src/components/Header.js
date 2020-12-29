@@ -22,10 +22,10 @@ class Header extends Component {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#" onClick={this.props.routeFct.bind(this, "teaList")}>Liste de thés {this.state.route === "teaList" ? currentPage : ""}</a>
+              <a className="nav-link" href="/#teaList" onClick={this.props.routeFct.bind(this, "teaList")}>Liste de thés {this.state.route === "teaList" ? currentPage : ""}</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={this.props.routeFct.bind(this, "addTea")}>Ajouter un thé {this.state.route === "addTea" ? currentPage : ""}</a>
+              <a className="nav-link" href="/#addTea" onClick={this.props.routeFct.bind(this, "addTea")}>Ajouter un thé {this.state.route === "addTea" ? currentPage : ""}</a>
             </li>
           </ul>
         </div>
